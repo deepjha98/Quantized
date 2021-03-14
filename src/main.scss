@@ -1,0 +1,22 @@
+//Import abstracts
+@import "scss/abstracts/variable";
+@import "scss/abstracts/mixin";
+
+//RESET THE PAGE BASICS
+@import "scss/base/reset";
+
+//Imprt scss layout
+@import "scss/layout/grid";
+
+//Import scss components
+@import "scss/component/features";
+@import "scss/component/footer";
+@import "scss/component/gallery";
+@import "scss/component/header";
+@import "scss/component/computer";
+@import "scss/component/sidebar";
+@import "scss/component/story";
+@import "scss/component/uses";
+
+//Import utils
+@import "scss/utils/utils";

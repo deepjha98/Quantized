@@ -1,0 +1,43 @@
+.uses {
+  background-color: rgba($color-secondary, 0.9);
+  grid-column: col-start 7 / full-end;
+  padding: 3rem;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-row-gap: 3rem;
+  justify-items: center;
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1/-1;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: min-content minmax(7rem, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 5vh;
+    align-items: start;
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-columns: repeat(3, min-content minmax(7rem, 1fr));
+    }
+    @media only screen and (max-width: $bp-small) {
+      grid-template-columns: min-content minmax(7rem, 1fr);
+      align-items: center;
+      justify-content: center;
+      grid-column-gap: 1rem;
+    }
+  }
+
+  &__img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: block;
+  }
+  &__text {
+    text-transform: capitalize;
+    color: rgba($color-grey-light-1, 0.6);
+    margin-top: 3px;
+    text-align: justify;
+    font-size: 1.1rem;
+  }
+}
