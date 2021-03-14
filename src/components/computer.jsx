@@ -48,7 +48,7 @@ const Computers = () => {
 
       {/* <!-- CARD 1 ENDS --> */}
       <div className="computer">
-        <img src={Computer2} alt="CARD 1" className="computer__img" />
+        <img src={Computer2} alt="CARD 2" className="computer__img" />
         <svg className="computer__like">
           <use
             href={
@@ -78,7 +78,7 @@ const Computers = () => {
       </div>
       {/* <!-- CARD 2 ENDS--> */}
       <div className="computer">
-        <img src={Computer3} alt="CARD 1" className="computer__img" />
+        <img src={Computer3} alt="CARD 3" className="computer__img" />
         <svg className="computer__like">
           <use
             href={
@@ -108,7 +108,7 @@ const Computers = () => {
       </div>
       {/* <!-- CARD 3 ENDS--> */}
       <div className="computer">
-        <img src={Computer4} alt="CARD 1" className="computer__img" />
+        <img src={Computer4} alt="CARD 4" className="computer__img" />
         <svg className="computer__like">
           <use
             href={
@@ -138,7 +138,7 @@ const Computers = () => {
       </div>
       {/* <!-- CARD 4 ENDS--> */}
       <div className="computer">
-        <img src={Computer5} alt="CARD 1" className="computer__img" />
+        <img src={Computer5} alt="CARD 5" className="computer__img" />
         <svg className="computer__like">
           <use
             href={
@@ -168,7 +168,7 @@ const Computers = () => {
       </div>
       {/* <!-- CARD 5 ENDS--> */}
       <div className="computer">
-        <img src={Computer6} alt="CARD 1" className="computer__img" />
+        <img src={Computer6} alt="CARD 6" className="computer__img" />
         <svg className="computer__like">
           <use
             href={

@@ -11,7 +11,7 @@ import DwaveLogo from "../resources/img/logo-dwave.png";
 class Header extends React.Component {
   render() {
     return (
-      <header className="header">
+      <header id="header" className="header">
         <img src={mainLogo} alt="Quantized" className="header__logo" />
         <h3 className="heading-3" id="custom__head">
           Learn Quantum
@@ -20,10 +20,10 @@ class Header extends React.Component {
         <button className="btn header__btn">View More</button>
         <div className="header__seenon-text">COMPANIES PARTICIPATING</div>
         <div className="header__seenon-logos">
-          <img src={googleLogo} alt="company" />
-          <img src={IBMLogo} alt="company" />
-          <img src={MicrosoftLogo} alt="company" />
-          <img src={DwaveLogo} alt="company" />
+          <img src={googleLogo} alt="company Google" />
+          <img src={IBMLogo} alt="company ibm" />
+          <img src={MicrosoftLogo} alt="company mICROSOFT" />
+          <img src={DwaveLogo} alt="company Dwave" />
         </div>
       </header>
     );

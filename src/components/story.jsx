@@ -7,7 +7,7 @@ export const Story = () => {
     <>
       <div className="story__pictures">
         <img src={Story1} alt="Ibm Computer" className="story__img--1" />
-        <img src={Story2} alt="Photo" className="story__img--2" />
+        <img src={Story2} alt="Quantum " className="story__img--2" />
       </div>
       <div className="story__content">
         <h3 className="heading-3 mb-sm">IBM(s) Summit or OLCF-4</h3>

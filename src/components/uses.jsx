@@ -12,7 +12,7 @@ export const Uses = () => {
       </h3>
 
       <div className="uses__list">
-        <img src={Use1} alt="Companies" className="uses__img" />
+        <img src={Use1} alt="Companies A" className="uses__img" />
         <div className="uses__content">
           <h4 className="heading-4 heading-4--light">Molecular Modeling</h4>
           <p className="uses__text">
@@ -20,7 +20,7 @@ export const Uses = () => {
           </p>
         </div>
 
-        <img src={Use2} alt="Companies" className="uses__img" />
+        <img src={Use2} alt="Companies B" className="uses__img" />
         <div className="uses__content">
           <h4 className="heading-4 heading-4--light">
             Artificial Intelligence
@@ -31,7 +31,7 @@ export const Uses = () => {
           </p>
         </div>
 
-        <img src={Use3} alt="Companies" className="uses__img" />
+        <img src={Use3} alt="Companies C" className="uses__img" />
         <div className="uses__content">
           <h4 className="heading-4 heading-4--light">Cryptography</h4>
           <p className="uses__text">
