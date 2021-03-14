@@ -15,10 +15,10 @@ import sprite from "../resources/img/sprite.svg";
 ////////////////////////////////////////////
 const Computers = () => {
   return (
-    <section class="computers">
-      <div class="computer">
-        <img src={Computer1} alt="CARD 1" class="computer__img" />
-        <svg class="computer__like">
+    <section className="computers">
+      <div className="computer">
+        <img src={Computer1} alt="CARD 1" className="computer__img" />
+        <svg className="computer__like">
           <use
             href={
               sprite +
@@ -26,30 +26,30 @@ const Computers = () => {
             }
           ></use>
         </svg>
-        <h5 class="computer__name">Google Sycamore</h5>
-        <div class="computer__company">
-          <span class="material-icons"> business </span>
+        <h5 className="computer__name">Google Sycamore</h5>
+        <div className="computer__company">
+          <span className="material-icons"> business </span>
           <p>Google</p>
         </div>
-        <div class="computer__architecture">
-          <span class="material-icons"> biotech </span>
+        <div className="computer__architecture">
+          <span className="material-icons"> biotech </span>
           <p>Nonlinear superconducting resonator</p>
         </div>
-        <div class="computer__layout">
-          <span class="material-icons"> vertical_split </span>
+        <div className="computer__layout">
+          <span className="material-icons"> vertical_split </span>
           <p>9×6 lattice</p>
         </div>
-        <div class="computer__qubit">
-          <span class="material-icons"> tag </span>
+        <div className="computer__qubit">
+          <span className="material-icons"> tag </span>
           <p>53 qb</p>
         </div>
-        <button class="btn computer__button">Visit website</button>
+        <button className="btn computer__button">Visit website</button>
       </div>
 
       {/* <!-- CARD 1 ENDS --> */}
-      <div class="computer">
-        <img src={Computer2} alt="CARD 1" class="computer__img" />
-        <svg class="computer__like">
+      <div className="computer">
+        <img src={Computer2} alt="CARD 1" className="computer__img" />
+        <svg className="computer__like">
           <use
             href={
               sprite +
@@ -57,29 +57,29 @@ const Computers = () => {
             }
           ></use>
         </svg>
-        <h5 class="computer__name">IBM Q 53</h5>
-        <div class="computer__company">
-          <span class="material-icons"> business </span>
+        <h5 className="computer__name">IBM Q 53</h5>
+        <div className="computer__company">
+          <span className="material-icons"> business </span>
           <p>IBM</p>
         </div>
-        <div class="computer__architecture">
-          <span class="material-icons"> biotech </span>
+        <div className="computer__architecture">
+          <span className="material-icons"> biotech </span>
           <p>Superconducting</p>
         </div>
-        <div class="computer__layout">
-          <span class="material-icons"> vertical_split </span>
+        <div className="computer__layout">
+          <span className="material-icons"> vertical_split </span>
           <p>T</p>
         </div>
-        <div class="computer__qubit">
-          <span class="material-icons"> tag </span>
+        <div className="computer__qubit">
+          <span className="material-icons"> tag </span>
           <p>53 qb</p>
         </div>
-        <button class="btn computer__button">Visit website</button>
+        <button className="btn computer__button">Visit website</button>
       </div>
       {/* <!-- CARD 2 ENDS--> */}
-      <div class="computer">
-        <img src={Computer3} alt="CARD 1" class="computer__img" />
-        <svg class="computer__like">
+      <div className="computer">
+        <img src={Computer3} alt="CARD 1" className="computer__img" />
+        <svg className="computer__like">
           <use
             href={
               sprite +
@@ -87,29 +87,29 @@ const Computers = () => {
             }
           ></use>
         </svg>
-        <h5 class="computer__name">X24</h5>
-        <div class="computer__company">
-          <span class="material-icons"> business </span>
+        <h5 className="computer__name">X24</h5>
+        <div className="computer__company">
+          <span className="material-icons"> business </span>
           <p>Xanadu</p>
         </div>
-        <div class="computer__architecture">
-          <span class="material-icons"> biotech </span>
+        <div className="computer__architecture">
+          <span className="material-icons"> biotech </span>
           <p>Photonics</p>
         </div>
-        <div class="computer__layout">
-          <span class="material-icons"> vertical_split </span>
+        <div className="computer__layout">
+          <span className="material-icons"> vertical_split </span>
           <p>N/A</p>
         </div>
-        <div class="computer__qubit">
-          <span class="material-icons"> tag </span>
+        <div className="computer__qubit">
+          <span className="material-icons"> tag </span>
           <p>24 qb</p>
         </div>
-        <button class="btn computer__button">Visit website</button>
+        <button className="btn computer__button">Visit website</button>
       </div>
       {/* <!-- CARD 3 ENDS--> */}
-      <div class="computer">
-        <img src={Computer4} alt="CARD 1" class="computer__img" />
-        <svg class="computer__like">
+      <div className="computer">
+        <img src={Computer4} alt="CARD 1" className="computer__img" />
+        <svg className="computer__like">
           <use
             href={
               sprite +
@@ -117,29 +117,29 @@ const Computers = () => {
             }
           ></use>
         </svg>
-        <h5 class="computer__name">19Q Acorn</h5>
-        <div class="computer__company">
-          <span class="material-icons"> business </span>
+        <h5 className="computer__name">19Q Acorn</h5>
+        <div className="computer__company">
+          <span className="material-icons"> business </span>
           <p>Rigetti</p>
         </div>
-        <div class="computer__architecture">
-          <span class="material-icons"> biotech </span>
+        <div className="computer__architecture">
+          <span className="material-icons"> biotech </span>
           <p>Superconducting</p>
         </div>
-        <div class="computer__layout">
-          <span class="material-icons"> vertical_split </span>
+        <div className="computer__layout">
+          <span className="material-icons"> vertical_split </span>
           <p>N/A</p>
         </div>
-        <div class="computer__qubit">
-          <span class="material-icons"> tag </span>
+        <div className="computer__qubit">
+          <span className="material-icons"> tag </span>
           <p>19 qb</p>
         </div>
-        <button class="btn computer__button">Visit website</button>
+        <button className="btn computer__button">Visit website</button>
       </div>
       {/* <!-- CARD 4 ENDS--> */}
-      <div class="computer">
-        <img src={Computer5} alt="CARD 1" class="computer__img" />
-        <svg class="computer__like">
+      <div className="computer">
+        <img src={Computer5} alt="CARD 1" className="computer__img" />
+        <svg className="computer__like">
           <use
             href={
               sprite +
@@ -147,29 +147,29 @@ const Computers = () => {
             }
           ></use>
         </svg>
-        <h5 class="computer__name">D-Wave Advantage</h5>
-        <div class="computer__company">
-          <span class="material-icons"> business </span>
+        <h5 className="computer__name">D-Wave Advantage</h5>
+        <div className="computer__company">
+          <span className="material-icons"> business </span>
           <p>D-Wave</p>
         </div>
-        <div class="computer__architecture">
-          <span class="material-icons"> biotech </span>
+        <div className="computer__architecture">
+          <span className="material-icons"> biotech </span>
           <p>Superconducting</p>
         </div>
-        <div class="computer__layout">
-          <span class="material-icons"> vertical_split </span>
+        <div className="computer__layout">
+          <span className="material-icons"> vertical_split </span>
           <p>Pegasus P16</p>
         </div>
-        <div class="computer__qubit">
-          <span class="material-icons"> tag </span>
+        <div className="computer__qubit">
+          <span className="material-icons"> tag </span>
           <p>5000 qb</p>
         </div>
-        <button class="btn computer__button">Visit website</button>
+        <button className="btn computer__button">Visit website</button>
       </div>
       {/* <!-- CARD 5 ENDS--> */}
-      <div class="computer">
-        <img src={Computer6} alt="CARD 1" class="computer__img" />
-        <svg class="computer__like">
+      <div className="computer">
+        <img src={Computer6} alt="CARD 1" className="computer__img" />
+        <svg className="computer__like">
           <use
             href={
               sprite +
@@ -177,24 +177,24 @@ const Computers = () => {
             }
           ></use>
         </svg>
-        <h5 class="computer__name">Jiuzhang</h5>
-        <div class="computer__company">
-          <span class="material-icons"> business </span>
+        <h5 className="computer__name">Jiuzhang</h5>
+        <div className="computer__company">
+          <span className="material-icons"> business </span>
           <p>USTC</p>
         </div>
-        <div class="computer__architecture">
-          <span class="material-icons"> biotech </span>
+        <div className="computer__architecture">
+          <span className="material-icons"> biotech </span>
           <p>Photonics</p>
         </div>
-        <div class="computer__layout">
-          <span class="material-icons"> vertical_split </span>
+        <div className="computer__layout">
+          <span className="material-icons"> vertical_split </span>
           <p>N/A</p>
         </div>
-        <div class="computer__qubit">
-          <span class="material-icons"> tag </span>
+        <div className="computer__qubit">
+          <span className="material-icons"> tag </span>
           <p>76 qb</p>
         </div>
-        <button class="btn computer__button">Visit website</button>
+        <button className="btn computer__button">Visit website</button>
       </div>
       {/* <!-- CARD 6 ENDS --> */}
     </section>
